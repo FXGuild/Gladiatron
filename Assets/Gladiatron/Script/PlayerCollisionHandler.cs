@@ -19,7 +19,7 @@ namespace FXGuild.Gladiatron
         {
             if (a_Obj.layer == 10)
             {
-                SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
+                Destroy(gameObject);
             }
         }
     }

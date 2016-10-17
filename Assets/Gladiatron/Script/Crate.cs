@@ -4,7 +4,7 @@ namespace FXGuild.Gladiatron
 {
     public sealed class Crate : MonoBehaviour
     {
-        private const float DEADLY_DURATION = 2f;
+        private const float DEADLY_DURATION = 1.5f;
 
         private float m_CreationTime;
 
